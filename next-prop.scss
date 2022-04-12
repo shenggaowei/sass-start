@@ -1,0 +1,16 @@
+// 把属性名从中划线-的地方断开，在根属性后边添加一个冒号:，紧跟一个{ }块，把子属性部分写在这个{ }块中。
+.nav {
+  // 嵌套属性
+  border: {
+    color: red;
+    style: solid;
+    width: 1px;
+  }
+}
+
+.nav2 {
+  border: 1px solid #ccc {
+    left: 10px;
+    right: 5px;
+  }
+}

@@ -1,0 +1,14 @@
+nav {
+  width: 100px;
+  color: #f90;
+  background-color: #fff;
+}
+
+nav .selected {
+  border: 1px solid #fff;
+}
+
+nav .normal {
+  border: 1px solid #fff;
+}
+/*# sourceMappingURL=variable.css.map */

@@ -1,0 +1,38 @@
+// 选中 article 下的所有 section 元素
+article section {
+  margin: 5px;
+}
+// 选中 article 下的第一个 section 元素
+article > section {
+  border: 1px solid #ccc;
+}
+
+// 与 header 元素处于同一层级。且紧跟着 header 的 p 元素
+header + p {
+  font-size: 1.1em;
+}
+
+// 与 article 同层级的的 article 元素，不管它们之间隔了多少个元素
+article ~ article {
+  border-top: 1px dashed #ccc;
+}
+
+.article2 {
+  ~ .article2 {
+    border-top: 1px dashed #ccc;
+  }
+  > .section1 {
+    background: #eee;
+  }
+  dl > {
+    dt {
+      color: #333;
+    }
+    dd {
+      color: #555;
+    }
+  }
+  .nav1 + & {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,20 @@
+article a {
+  color: blue;
+  :hover {
+    color: red;
+  }
+}
+
+.article2 a {
+  color: blue;
+  &:hover {
+    color: red;
+  }
+}
+
+#content aside {
+  color: red;
+  body.ie & {
+    color: green;
+  }
+}

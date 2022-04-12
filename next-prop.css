@@ -1,0 +1,12 @@
+.nav {
+  border-color: red;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.nav2 {
+  border: 1px solid #ccc;
+  border-left: 10px;
+  border-right: 5px;
+}
+/*# sourceMappingURL=next-prop.css.map */

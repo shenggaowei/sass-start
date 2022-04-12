@@ -1,0 +1,24 @@
+article a {
+  color: blue;
+}
+
+article a :hover {
+  color: red;
+}
+
+.article2 a {
+  color: blue;
+}
+
+.article2 a:hover {
+  color: red;
+}
+
+#content aside {
+  color: red;
+}
+
+body.ie #content aside {
+  color: green;
+}
+/*# sourceMappingURL=parent-selector.css.map */

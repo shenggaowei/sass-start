@@ -1,0 +1,36 @@
+article section {
+  margin: 5px;
+}
+
+article > section {
+  border: 1px solid #ccc;
+}
+
+header + p {
+  font-size: 1.1em;
+}
+
+article ~ article {
+  border-top: 1px dashed #ccc;
+}
+
+.article2 ~ .article2 {
+  border-top: 1px dashed #ccc;
+}
+
+.article2 > .section1 {
+  background: #eee;
+}
+
+.article2 dl > dt {
+  color: #333;
+}
+
+.article2 dl > dd {
+  color: #555;
+}
+
+.nav1 + .article2 {
+  margin-top: 0;
+}
+/*# sourceMappingURL=group-child-selector.css.map */

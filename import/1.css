@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.fancybox {
+  width: 400px;
+}
+
+.nav {
+  width: 500px;
+}
+
+.blue-theme {
+  /** 这块注释会存到 css 中 **/
+}
+
+.blue-theme aside {
+  background: blue;
+  color: white;
+}
+/*# sourceMappingURL=1.css.map */

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/** mixin 用来复用 css 代码块 
+* @mixin 定义 
+* @include 导入
+* 1. 可以在 mixin 中使用 & 选择符
+* 2. 可以给 mixin 传参, 类似 js, 参数命名以 $ 开头，以分号进行分隔
+* 3. 可以给 mixin 函数设置默认值，参数默认值使用$name: default-value的声明形式，默认值可以是任何有效的css属性值，甚至是其他参数的引用
+*/
+.notice {
+  border-radius: 5px;
+  color: red;
+}
+
+ul.plain {
+  color: #444;
+  list-style: none;
+}
+
+ul.plain li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+.a ul.plain {
+  font-size: 10px;
+}
+
+.a-link {
+  color: purple;
+}
+
+.a-link:hover {
+  color: purple;
+}
+
+.a-link:visited {
+  color: purple;
+}
+/*# sourceMappingURL=basic.css.map */

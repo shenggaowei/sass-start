@@ -1,0 +1,6 @@
+// 在 scss 中 !default 是 !important 的相反方向
+
+$fancybox-width: 400px !default;
+.fancybox {
+  width: $fancybox-width;
+}

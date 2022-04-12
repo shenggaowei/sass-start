@@ -1,3 +1,7 @@
+@charset "UTF-8";
+/**
+* 变量名以 $ 开头，冒号 分开命名
+**/
 nav {
   width: 100px;
   color: #f90;

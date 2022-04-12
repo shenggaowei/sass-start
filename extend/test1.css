@@ -1,0 +1,9 @@
+.error, .seriousError {
+  border: 1px solid red;
+  background-color: #fdd;
+}
+
+.seriousError {
+  border-width: 3px;
+}
+/*# sourceMappingURL=test1.css.map */

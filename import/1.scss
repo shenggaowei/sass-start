@@ -1,0 +1,11 @@
+@import "./base.scss";
+
+$fancybox-width: 500px;
+
+.nav {
+  width: $fancybox-width;
+}
+
+.blue-theme {
+  @import "blue-theme"; /** 这块注释会存到 css 中 **/
+}

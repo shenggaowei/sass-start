@@ -6,6 +6,7 @@ $nav-color: #f90;
 $highlight-border: 1px solid $highlight-color;
 
 nav {
+  $height: 50px !global;
   $width: 100px;
   width: $width;
   color: $nav-color;
@@ -18,4 +19,8 @@ nav {
   .normal {
     border: $highlight-border;
   }
+}
+
+.sidebar {
+  height: $height;
 }

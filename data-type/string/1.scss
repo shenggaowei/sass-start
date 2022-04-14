@@ -1,0 +1,11 @@
+/**
+sass 支持有引号字符串和无引号字符串
+使用 #{$selector} 可以把有引号字符串转变为无引号字符
+**/
+@mixin firefox-message($selector) {
+  body.firefox #{$selector}:before {
+    content: "Hi, Firefox users!";
+  }
+}
+
+@include firefox-message(header);

@@ -1,0 +1,15 @@
+// #{}可以在选择器或者属性中使用变量
+
+$name: foo;
+$attr: border;
+
+p.#{$name} {
+  #{$attr}-color: red;
+  #{$attr}: 1px solid #ccc;
+}
+
+.pp {
+  $font-size: 12px;
+  $line-height: 30px;
+  font: #{$font-size}/#{$line-height};
+}

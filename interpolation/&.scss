@@ -1,0 +1,17 @@
+@mixin does-parent-exist {
+  @if & {
+    &:hover {
+      color: red;
+    }
+  } @else {
+    a {
+      color: blue;
+    }
+  }
+}
+
+@include does-parent-exist();
+
+.pp {
+  @include does-parent-exist();
+}

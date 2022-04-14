@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/**
+sass 支持有引号字符串和无引号字符串
+**/
+body.firefox header:before {
+  content: "Hi, Firefox users!";
+}
+/*# sourceMappingURL=1.css.map */

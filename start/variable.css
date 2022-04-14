@@ -15,4 +15,8 @@ nav .selected {
 nav .normal {
   border: 1px solid #fff;
 }
+
+.sidebar {
+  height: 50px;
+}
 /*# sourceMappingURL=variable.css.map */

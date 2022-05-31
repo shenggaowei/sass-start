@@ -1,5 +1,4 @@
-.error,
-.seriousError {
+.error, .seriousError {
   border: 1px #f00;
   background-color: #fdd;
 }

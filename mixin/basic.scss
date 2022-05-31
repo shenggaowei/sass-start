@@ -4,6 +4,7 @@
 * 1. 可以在 mixin 中使用 & 选择符
 * 2. 可以给 mixin 传参, 类似 js, 参数命名以 $ 开头，以分号进行分隔
 * 3. 可以给 mixin 函数设置默认值，参数默认值使用$name: default-value的声明形式，默认值可以是任何有效的css属性值，甚至是其他参数的引用
+* 4. @content 在 mixin 中定义，在 @include 中可以写 content blocks
 */
 
 $default-color: purple;
@@ -11,6 +12,7 @@ $default-color: purple;
 @mixin rounded-corner {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
+  @content;
   border-radius: 5px;
   color: red;
 }
@@ -42,7 +44,9 @@ $default-color: purple;
 }
 
 .notice {
-  @include rounded-corner();
+  @include rounded-corner() {
+    cursor: pointer;
+  }
 }
 
 ul.plain {
